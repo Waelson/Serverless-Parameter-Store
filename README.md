@@ -36,6 +36,6 @@ sls deploy -v
 ```
 
 ## Important
-All parameters defined in custom>setting section will be injected like environment variable in the settings of Lambda. Therefore, you be able to access the environment variable com NodeJS using ```bash process.env.YOUR_VARIABLE```.
+All parameters defined in custom>setting section will be injected like environment variable in the settings of Lambda. Therefore, you be able to access the environment variable com NodeJS using ```process.env.YOUR_VARIABLE```.
 
 Good luck!!!
