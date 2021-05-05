@@ -1,0 +1,23 @@
+service: serverless-parameter-store
+frameworkVersion: '2'
+
+custom:
+  settings:
+    DB_HOST: ${ssm:DB_HOST}
+    DB_PORT: ${ssm:DB_PORT}
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  stage: dev
+  region: us-east-1
+  environment: ${self:custom.settings}
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: parameter    
