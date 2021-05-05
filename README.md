@@ -30,7 +30,7 @@ provider:
   environment: ${self:custom.settings}
   ...
 ```  
-### Deploy you application
+### 3 - Deploy your code
 ```bash
 sls deploy -v
 ```
