@@ -6,7 +6,7 @@ This project show you how to integrate an AWS Lambda along with AWS System Manag
 ### Pre Requirements
 - You must have a AWS account
 - You must have Serverless Framework installed in your computer
-- You must have permission to write and read in SSM (see policy.json in the repository)
+- You must have IAM permission to write and read in SSM (see policy.json in the repository)
 
 
 ## Steps
