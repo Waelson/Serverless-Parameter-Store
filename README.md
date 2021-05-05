@@ -30,12 +30,18 @@ provider:
   environment: ${self:custom.settings}
 ...
 ```  
-### 3 - Deploy your code
+### 3 - Getting parameters
+```bash
+  var myDbHost = process.env.DB_HOST
+  var myDbPort = process.env.DB_PORT
+```
+
+### 4 - Deploy your project
 ```bash
 sls deploy -v
 ```
 
-## Important
-All parameters defined in ```custom > setting``` section will be injected as environment variables in the settings of Lambda. Therefore, you be able to access it in NodeJS using ```process.env.YOUR_VARIABLE```.
+## Notice
+All parameters defined in ```custom > setting``` section will be injected as environment variables in the settings of Lambda. 
 
 Good luck!!!
