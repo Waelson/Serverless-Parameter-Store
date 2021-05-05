@@ -12,7 +12,7 @@
                 "ssm:GetParameter",
                 "ssm:DeleteParameters"
             ],
-            "Resource": "arn:aws:ssm:us-east-1:212165287828:parameter/*"
+            "Resource": "arn:aws:ssm:<aws-region>:<account-id>:parameter/*"
         },
         {
             "Effect": "Allow",
