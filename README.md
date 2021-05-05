@@ -1,5 +1,5 @@
 ## Description
-This is a simple project to show how to can integrate a AWS Lambda long with AWS System Manager. The project is based on Serverless Framework using NodeJS template.
+This iS project to show YOU how to can integrate a AWS Lambda long with AWS System Manager. It is based on Serverless Framework using NodeJS template.
 
 ---
 
