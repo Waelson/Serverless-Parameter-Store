@@ -1,5 +1,5 @@
 ## Description
-This project show you how to integrate an AWS Lambda along with AWS System Manager. It is based on Serverless Framework using Node JS template.
+This project show you how to integrate an AWS Lambda along with AWS System Manager. It's based on Serverless Framework using Node JS template.
 
 ---
 
