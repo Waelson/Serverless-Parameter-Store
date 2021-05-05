@@ -1,5 +1,5 @@
 ## Description
-This iS project to show YOU how to can integrate a AWS Lambda long with AWS System Manager. It is based on Serverless Framework using NodeJS template.
+This project show you how to integrate an AWS Lambda along with AWS System Manager. It is based on Serverless Framework using NodeJS template.
 
 ---
 
@@ -36,6 +36,6 @@ sls deploy -v
 ```
 
 ## Important
-All parameters defined in custom>setting section will be injected like environment variable in the settings of Lambda. Therefore, you be able to access the environment variable com NodeJS using ```process.env.YOUR_VARIABLE```.
+All parameters defined in ```custom > setting``` section will be injected like environment variables in the settings of Lambda. Therefore, you be able to access it in NodeJS using ```process.env.YOUR_VARIABLE```.
 
 Good luck!!!
