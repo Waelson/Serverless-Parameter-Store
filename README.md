@@ -20,12 +20,12 @@ aws ssm put-parameter --name DB_PORT --value 3306 --type String
 
 ### 2 - Setting serverless.yml
 ```bash
+...
 custom:
   settings:
     DB_HOST: ${ssm:DB_HOST}
     DB_PORT: ${ssm:DB_PORT}
-    
-and
+...    
 provider:
   environment: ${self:custom.settings}
   ...
