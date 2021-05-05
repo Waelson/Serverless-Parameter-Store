@@ -6,7 +6,7 @@ This is a simple project to show how to can integrate a AWS Lambda long with AWS
 ### Pre Requirements
 - You must have a AWS account
 - You must have Serverless Framework installed in your computer
-- You must have permission to white and read in SSM (see policy.json in the repository)
+- You must have permission to write and read in SSM (see policy.json in the repository)
 
 
 ## Steps
