@@ -10,7 +10,7 @@ This project show you how to integrate an AWS Lambda along with AWS System Manag
 
 
 ## Steps
-### 1 - Create your parameters
+### 1 - Storing parameters
 ```bash
 aws ssm put-parameter --name DB_HOST --value localhost --type String
 ```
@@ -36,7 +36,7 @@ provider:
   var myDbPort = process.env.DB_PORT
 ```
 
-### 4 - Deploy your project
+### 4 - Deploying project
 ```bash
 sls deploy -v
 ```
@@ -44,4 +44,3 @@ sls deploy -v
 ## Notice
 All parameters defined in ```custom > setting``` section will be injected as environment variables in the settings of Lambda. 
 
-Good luck!!!
