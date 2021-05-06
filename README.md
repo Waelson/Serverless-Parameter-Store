@@ -22,7 +22,7 @@ aws ssm put-parameter --name DB_PORT --value 3306 --type String
 sls create --template aws-nodejs --name <PROJECT-NAME>
 ```
 ### 3 - Setting serverless.yml
-```bash
+```yml
 ...
 custom:
   settings:
@@ -34,9 +34,9 @@ provider:
 ...
 ```  
 ### 4 - Getting parameters
-```bash
-  var myDbHost = process.env.DB_HOST
-  var myDbPort = process.env.DB_PORT
+```javascript
+  const myDbHost = process.env.DB_HOST
+  const myDbPort = process.env.DB_PORT
 ```
 
 ### 5 - Deploying project
